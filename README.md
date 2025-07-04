@@ -1,5 +1,4 @@
 # rosa-shared-vpc
-ROSA HCP with shared vpc
 
 This terraform management file will generate a reference Private ROSA HCP cluster in shared vpc architecture.
 Includes:
@@ -26,7 +25,7 @@ Includes:
 - Full usage with command line variable
 
         $ terraform plan -out rosa.tfplan \
-            -var token=" YOUR ROSA TOKEN"
+            -var token="your OpenShift Cluster Manager API Token"
 
 ## Apply
     
